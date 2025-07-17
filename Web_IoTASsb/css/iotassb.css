@@ -1,0 +1,121 @@
+/*
+Module CSS to manage the Layout of Project IoTA Swarm Scribble Bots
+<!--* Marco Ercolani in data 01.02.2025 -->
+<!--* A.A. 2024/25 -->
+<!--* Corso Interaction Design  -->
+<!--* Percorso di Studi Nuove Tecnologie dell'Arte -->
+<!--* Accademia di Belle Arti di Urbino -->
+<!--* del server ercole.abaurbino.it -->
+*/
+
+html, body, #container {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      }
+ 
+ #cntWordCloud {
+ 
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+}
+ 
+.centerhome {
+      
+    display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+ 	width: 50%;
+}
+
+.leftAbout {
+      display: block;
+      margin-left: 30%;
+      text-align: left;
+}
+
+#informations {
+      margin-bottom: 80px;
+}
+
+#informations > p {
+      text-align: left;
+      color: black;
+      margin-left: 4%;
+}
+
+#likeVeryBad,
+#likeBad,
+#likeNeutral,
+#likeGood,
+#likeVeryGood {
+     font-size:30px;
+}
+
+h1,h6,p {
+	text-align: center;
+	color: #050505;
+}
+
+.text-yellow {
+    font-weight: bold;
+    font-style: italic;
+    color: #e5e93b;
+}
+
+.text-green {
+    font-weight: bold;
+    font-style: italic;
+    color: #00ff2c;
+}
+
+.text-blue {
+    font-weight: bold;
+    font-style: italic;
+    color: #0000ff;
+}
+
+.text-lightblue {
+    font-weight: bold;
+    font-style: italic;
+    color: #adadec;
+    font-size: 30px;
+}
+
+.text-red {
+    font-weight: bold;
+    font-style: italic;
+    color: #ff0000;
+}
+
+.text-purple {
+    font-weight: bold;
+    font-style: italic;
+    color: #cf1bb7;
+}
+
+
+.text-important {
+    font-weight: bold;
+    font-style: italic;
+    color: #0a0a0a;
+}
+
+label {
+               
+	color: grey;
+}
+
+canvas {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      display: block;
+      width: 800px;
+}
+
+.copyleft { display:inline-block; transform: rotate(180deg); }

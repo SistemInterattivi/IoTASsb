@@ -1,0 +1,3 @@
+2025-02-06 17:55:35,511 - root - INFO - Il server run with address: teseo.abaurbino.it port client socket: 11246 port client websocket: 11346
+2025-02-06 17:55:35,517 - root - INFO - This is client server run!
+2025-02-06 17:55:35,517 - root - INFO - WebSocket Server of address: teseo.abaurbino.it listening on Port: 11346
